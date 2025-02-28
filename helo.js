@@ -10,4 +10,5 @@ const prompt=require("prompt-sync")();
 
 var a=prompt("enter 1st no")
 var b=prompt("enter 1st no")
+
 console.log(a+b)
