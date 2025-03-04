@@ -13,3 +13,5 @@ var b=prompt("enter 1st no")
 console.log(a+b)
 console.log(a-b)
 console.log(a*b)
+console.log(a/b)
+
