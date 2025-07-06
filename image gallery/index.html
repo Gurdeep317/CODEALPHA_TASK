@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="gallery-container">
+    <h1>Image Gallery</h1>
+    <div class="gallery" id="gallery">
+      <!-- Replace src URLs with your image links -->
+      <img src="https://picsum.photos/id/1015/600/400" alt="Image 1" />
+      <img src="https://picsum.photos/id/1025/600/400" alt="Image 2" />
+      <img src="https://picsum.photos/id/1035/600/400" alt="Image 3" />
+      <img src="https://picsum.photos/id/1045/600/400" alt="Image 4" />
+      <img src="https://picsum.photos/id/1055/600/400" alt="Image 5" />
+      <img src="https://picsum.photos/id/1065/600/400" alt="Image 6" />
+    </div>
+  </div>
+
+  <!-- Lightbox Overlay -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">×</span>
+    <img class="lightbox-content" id="lightbox-img" />
+    <div class="nav">
+      <span onclick="prevImage()">❮</span>
+      <span onclick="nextImage()">❯</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
